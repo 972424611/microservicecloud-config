@@ -1,13 +1,13 @@
 spring:
   profiles:
-	active:
-	- dev
+    active:
+    - dev
 ---
 # 开发环境
 spring:
   profiles: dev
   application:
-	name: microservicecloud-config-aekc-dev
+    name: microservicecloud-config-aekc-dev
 ---
 # 测试环境
 spring:
