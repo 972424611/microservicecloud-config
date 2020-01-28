@@ -1,0 +1,18 @@
+spring:
+  profiles:
+	active:
+	- dev
+---
+# 开发环境
+spring:
+  profiles: dev
+  application:
+	name: microservicecloud-config-aekc-dev
+---
+# 测试环境
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-aekc-test
+
+# 文件需保存为UTF-8格式
